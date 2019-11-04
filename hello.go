@@ -1,11 +1,9 @@
 package main
-import "fmt"
 
-func m·ain() {
-	fmt·.Println("muhaha")
-	va· toto string
-	var·o = "= "
-	ff = "xxx"
-	fmt.Println(toto + ff)
+func main() {
+	println(3 == 3)
+	println(3 == 3)
+	println(80>>2)
 
 }
+ 
