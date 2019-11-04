@@ -7,7 +7,7 @@ func main() {
 
  fmt.Printf("ptr 的值为 : %x\n", ptr )
  
- if(ptr == nil){
+ if(ptr == nil){//判断是否是空指针
  println("is null")
  }
 }
