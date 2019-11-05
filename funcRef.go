@@ -16,7 +16,7 @@ func main(){
  /* 使用函数 */
  fmt.Println(getSquareRoot(9))
 
-testCallBack(1, callBack)
+testCallBack(9, callBack)
 
  testCallBack(2, func(x int) int {
         fmt.Printf("我是回调，x：%d\n", x)

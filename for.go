@@ -9,7 +9,7 @@ func main() {
 
  numbers := [6]int{1, 2, 3, 5}
 
- /* for 循环 */x
+ /* for 循环 */
  for a := 0; a < 10; a++ {
    fmt.Printf("a 的值为: %d\n", a)
  }

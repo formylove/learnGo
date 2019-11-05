@@ -1,11 +1,14 @@
 package main
 
 func main() {
+	const(
+		a=1<<iota
+		b=2
+		c=5
+	)
 	println(3 == 3)
 	println(3 == 3)
-	x:=false
-	var i int
-	println(i=999)
+	println(a)
 
 }
  

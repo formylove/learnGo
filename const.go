@@ -2,13 +2,14 @@ package main
 
 import "fmt"
 const (
-aa = "iota"  //0
-bb     //1
-cc    //2
+aa = "iota"  //iota
+bb     //iota
+cc    //iota
 
 )
 const (
 i=1<<iota
+z=1<<iota
 j=3<<iota
 k
 l
@@ -28,7 +29,8 @@ g     //100 iota +=1
 h = iota  //7,恢复计数
 i     //8
 )
-fmt.Println(a,b,c,d,e,f,g,h,i)
+fmt.Println(a,b,c)
+fmt.Println(d,e,f,g,h,i)
 fmt.Println(aa,bb,cc)
-fmt.Println(i,j,k,l)
+fmt.Println(i,j,k,l,z)
 }

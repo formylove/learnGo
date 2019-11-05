@@ -11,7 +11,7 @@ func main() {
  /* 调用函数并返回最大值 */
  ret = max(a, b)
 
- fmt.Printfln( "最大值是 : %d ", ret )
+ fmt.Println( "最大值是 : %d ", ret )
  ret1,ret2,ret3:=minus(6,2)
  println("差值为",ret1,ret2,ret3)
 
