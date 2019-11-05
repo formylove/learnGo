@@ -59,9 +59,10 @@ func main() {
   case false:
       fmt.Println("3、case 条件语句为 false")
       fallthrough
-  case true:
-      fmt.Println("4、case 条件语句为 true")
-  case false:
+    case true:
+        fmt.Println("4、case 条件语句为 true")
+        fallthrough//如果注释掉此处fallthrough，下面的case 5和default都不会执行
+    case false:
       fmt.Println("5、case 条件语句为 false")
       fallthrough
   default:

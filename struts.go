@@ -20,4 +20,7 @@ fmt.Println(Books{title:"Go语言",author:"www.runoob.com",subject:"Go语言教�
 
 //忽略的字段为0或空
 fmt.Println(Books{title:"Go语言",author:"www.runoob.com"})
+book := Books{title:"think slow and fast"}
+book.author="Billy"
+fmt.Println(book.title,"author",book.author)
 }
